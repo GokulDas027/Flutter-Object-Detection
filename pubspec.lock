@@ -89,7 +89,7 @@ packages:
     source: hosted
     version: "2.1.4"
   image_picker:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: image_picker
       url: "https://pub.dartlang.org"
@@ -185,7 +185,7 @@ packages:
     source: hosted
     version: "0.2.11"
   tflite:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: tflite
       url: "https://pub.dartlang.org"
