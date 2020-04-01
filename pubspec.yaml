@@ -21,6 +21,7 @@ dependencies:
     sdk: flutter
   tflite: ^1.0.5
   image_picker: ^0.6.4
+  camera: ^0.5.7+4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -50,6 +51,9 @@ flutter:
     - assets/tflite/yolov2_tiny.txt
     - assets/tflite/efficientnet_label.txt
     - assets/tflite/efficientnet_lite4_fp32.tflite
+    - assets/tflite/mobilenet.tflite
+    - assets/tflite/mobilenet.txt
+    - assets/tflite/posenet.tflite
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
